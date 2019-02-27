@@ -1,0 +1,5 @@
+core.autocrlf=true
+pull.rebase=true
+alias.logf=log --graph --format=%C(yellow)%h\ %C(green)%an\ %C(red)%cd\ %C(yellow)>\ %C(white)%s --date=relative
+alias.logg=log --graph --oneline
+alias.last=show @ --stat
